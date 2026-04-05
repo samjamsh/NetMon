@@ -155,7 +155,7 @@ class NetworkMonitorGUI:
         self.status = tk.StringVar()
         self.status.set("Ready")
 
-        # Tenta adicionar ícone da janela
+        # Tenta adicionar icone da janela
         try:
             root.iconbitmap(r"C:\Users\cyber\Pictures\PngIco\modem_wifi_router_network_internet_icon_190949.ico")
         except:
